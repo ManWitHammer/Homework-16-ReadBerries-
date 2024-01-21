@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Rubik:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.infoblock {
+    position: fixed;
+    width: 1400px;
+    height: 100px;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;  
+}
+
+.aboutblock {
+    width: 1400px;
+    height: 200px;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    padding: 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .infoblock {
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+    }
+    .aboutblock {
+        width: 100%;
+    }
+}
+
+.container {
+    margin-top: 140px;
+    width: 1400px;
+    background: white;
+    padding: 20px;
+    display: flex;
+    gap: 25px;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 390px;
+    padding: 5px;
+    background: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+}
+
+.user:hover .cost {
+    color: #23a6d5;
+}
+
+.picture {
+    width: 95%;
+    margin-left: 2.5%;
+    height: 290px;
+    border-radius: 10px;
+}
+
+.picture img {
+    width: 100%;
+    height: 100%;
+}
+
+.cost {
+    margin-left: 2.5%;
+    font-size: 23px;
+    font-weight: 600;
+    margin-top: 13px;
+    color: black;
+    transition: 0.3s ease;
+}
+
+.producer {
+    margin-left: 2.5%;
+    font-size: 17px;
+    font-weight: 200;
+    white-space: nowrap;
+}
+
+span {
+    font-size: 15px;
+    color: grey;
+}
+
+.upT {
+    color: white;
+    font-size: 38px;
+}
+
+.downT {
+    color: white;
+    font-size: 15px;
+}

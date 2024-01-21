@@ -1,0 +1,74 @@
+{
+	"PRODUCTS": [
+		{
+			"name": "Чайник заварочный",
+			"picture": "https://basket-04.wbbasket.ru/vol611/part61122/61122886/images/c516x688/1.webp",
+			"publisher": "TIME.",
+			"cost": 38.99,
+			"quantity": 3000
+		},
+		{
+			"name": "Наушники беспроводные",
+			"picture": "https://basket-10.wbbasket.ru/vol1512/part151264/151264534/images/c516x688/1.webp",
+			"publisher": "world of sound.",
+			"cost": 255.50,
+			"quantity": 8000
+		},
+		{
+			"name": "Кислородный отбеливатель",
+			"picture": "https://basket-02.wbbasket.ru/vol192/part19252/19252625/images/c516x688/1.webp",
+			"publisher": "елизар",
+			"cost": 19.99,
+			"quantity": 5500
+		},
+		{
+			"name": "Камера видионаблюдения",
+			"picture": "https://basket-10.wbbasket.ru/vol1439/part143916/143916946/images/c516x688/1.webp",
+			"publisher": "MagicPro",
+			"cost": 1399.97,
+			"quantity": 2200
+		},
+		{
+			"name": "Пятновыводитель",
+			"picture": "https://basket-05.wbbasket.ru/vol935/part93550/93550775/images/c516x688/1.webp",
+			"publisher": "BRANDFREE",
+			"cost": 84.50,
+			"quantity": 7800
+		},
+		{
+			"name": "Электрическая зубная счётка",
+			"picture": "https://basket-10.wbbasket.ru/vol1480/part148081/148081835/images/c516x688/1.webp",
+			"publisher": "Xiaomi",
+			"cost": 36.50,
+			"quantity": 5000
+		},
+		{
+			"name": "Влажные детские салфетки",
+			"picture": "https://basket-04.wbbasket.ru/vol562/part56236/56236410/images/c516x688/1.webp",
+			"publisher": "FRESHLAND",
+			"cost": 34.99,
+			"quantity": 11000
+		},
+		{
+			"name": "Салфетки для уборки",
+			"picture": "https://basket-04.wbbasket.ru/vol434/part43450/43450921/images/c516x688/1.webp",
+			"publisher": "VegaOks",
+			"cost": 74.99,
+			"quantity": 2000
+		},
+		{
+			"name": "Духи женские",
+			"picture": "https://basket-12.wbbasket.ru/vol1690/part169074/169074887/images/c516x688/1.webp",
+			"publisher": "Hi Do Aroma",
+			"cost": 92.99,
+			"quantity": 4900
+		},
+		{
+			"name": "Трусы боксёры",
+			"picture": "https://basket-11.wbbasket.ru/vol1639/part163987/163987184/images/c516x688/1.webp",
+			"publisher": "BORNERS",
+			"cost": 14.88,
+			"quantity": 1000000
+		}
+	]
+}
