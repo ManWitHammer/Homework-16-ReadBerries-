@@ -11,7 +11,7 @@
 			"name": "Наушники беспроводные",
 			"picture": "https://basket-10.wbbasket.ru/vol1512/part151264/151264534/images/c516x688/1.webp",
 			"publisher": "world of sound.",
-			"cost": 255.50,
+			"cost": 255.49,
 			"quantity": 8000
 		},
 		{
@@ -32,14 +32,14 @@
 			"name": "Пятновыводитель",
 			"picture": "https://basket-05.wbbasket.ru/vol935/part93550/93550775/images/c516x688/1.webp",
 			"publisher": "BRANDFREE",
-			"cost": 84.50,
+			"cost": 84.49,
 			"quantity": 7800
 		},
 		{
 			"name": "Электрическая зубная счётка",
 			"picture": "https://basket-10.wbbasket.ru/vol1480/part148081/148081835/images/c516x688/1.webp",
 			"publisher": "Xiaomi",
-			"cost": 36.50,
+			"cost": 36.49,
 			"quantity": 5000
 		},
 		{
@@ -69,6 +69,27 @@
 			"publisher": "BORNERS",
 			"cost": 14.88,
 			"quantity": 1000000
+		},
+		{
+			"name": "Подставка для прогрева",
+			"picture": "https://basket-12.wbbasket.ru/vol1827/part182719/182719026/images/c516x688/1.webp",
+			"publisher": "Tamy",
+			"cost": 32.99,
+			"quantity": 7100
+		},
+		{
+			"name": "Савок",
+			"picture": "https://basket-04.wbbasket.ru/vol515/part51543/51543771/images/c516x688/1.webp",
+			"publisher": "hausland",
+			"cost": 44.49,
+			"quantity": 9990
+		},
+		{
+			"name": "Носки",
+			"picture": "https://basket-01.wbbasket.ru/vol137/part13738/13738266/images/c516x688/1.webp",
+			"publisher": "OMSA",
+			"cost": 36.99,
+			"quantity": 15000
 		}
 	]
 }
