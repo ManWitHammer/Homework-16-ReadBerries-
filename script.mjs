@@ -1,5 +1,6 @@
 import startTimer from "./actions/startTime.mjs";
 import getData from "./actions/getData.mjs";
+import discount from "./actions/discount.mjs";
 
 const container = document.querySelector('.container')
 const preloader = document.querySelector('.preloader');
@@ -28,7 +29,7 @@ getData('http://localhost:3000/PRODUCTS')
                         <div class="overlay">-25%</div>
                         <div class="timer"></div>
                     </div>
-                    <p class="cost">${(element.cost - element.cost*0.25).toFixed(2)}ㅤ<span style="text-decoration: line-through;">${element.cost}</span></p>
+                    <p class="cost">${discount(element.cost)}ㅤ<span style="text-decoration: line-through;">${element.cost}</span></p>
                     <p class="producer">${element.publisher}/<span>${element.name}</span></p>
                     <p class="producer"><span>${element.quantity}</span> в наличии</p>
                 </div>
