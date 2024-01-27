@@ -1,7 +1,7 @@
 const discount = (num) => {
-    num = num * 0.75
-    let newNum = num.toString().split('.').map(el => el.slice(0, 2)).join('.')
-    return newNum
+    num = (num * 0.75).toString().split('.')
+    num[1] = num[1].slice(0, 2)
+    return num.join('.')
 }
 
 export default discount
