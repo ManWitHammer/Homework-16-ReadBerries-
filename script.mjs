@@ -7,8 +7,6 @@ const preloader = document.querySelector('.preloader');
 const infoblocked = document.querySelector('.infoblock')
 const spinner = document.querySelector('.spinner')
 
-infoblocked.innerText = startTimer(infoblocked)
-
 window.addEventListener('load', function () {
     preloader.classList.add('invisblock');
     spinner.style.display = 'none'
@@ -36,6 +34,7 @@ getData('http://localhost:3000/PRODUCTS')
                 `
             )
         })
+        startTimer(infoblocked, data, container)
         container.insertAdjacentHTML(
             'afterend',
             `
